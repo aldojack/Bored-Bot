@@ -1,3 +1,8 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 #container{
     border: 1px solid black;
     display: flex;
@@ -5,11 +10,11 @@
     align-items: center;
     justify-content: center;
     width: 70%;
-    height: 60vh;
+    height: 90vh;
     margin: 0 auto;
-    /* background: chocolate;
-    background: -webkit-linear-gradient(to right, #fc4a1a,#f7b733);
-    background: linear-gradient(to right, #fc4a1a,#f7b733); */
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #bdc3c7,#2c3e50);
+    background: linear-gradient(to right, #bdc3c7,#2c3e50);
 }
 
 #refresh-btn{
@@ -21,53 +26,56 @@
     cursor: pointer;
 }
 
-.education{
+#container.education{
     background: lime;
     background: -webkit-linear-gradient(to right, #C9FFBF,#FFAFBD);
     background: linear-gradient(to right, #C9FFBF,#FFAFBD);
 }
 
-.recreational{
+#container.recreational{
     background: #4DA0B0;
     background: -webkit-linear-gradient(to top, #4DA0B0,#D39D38);
     background: linear-gradient(to top, #4DA0B0,#D39D38);
 }
 
-.social{
+#container.social{
     background: #F3F9A7;
     background: -webkit-linear-gradient(to bottom, #CAC531,#F3F9A7);
     background: linear-gradient(to bottom, #CAC531,#F3F9A7);
 }
 
-.diy{
+#container.diy{
     background: #3a7bd5;
     background: -webkit-linear-gradient(to bottom, #3a7bd5,#3a6073);
     background: linear-gradient(to bottom, #3a7bd5,#3a6073);
 }
 
-.charity{
+#container.charity{
     background: pink;
     background: -webkit-linear-gradient(to right, #FF0099,#493240);
     background: linear-gradient(to right, #FF0099,#493240);
+
 }
 
-.cooking{
-    
+#container.cooking{
+    background: #40E0D0;
+    background: -webkit-linear-gradient(to right, #a8c0ff,#40E0D0);
+    background: linear-gradient(to right, #a8c0ff,#40E0D0);
 }
 
-.relaxation{
+#container.relaxation{
     background: #a8c0ff;
     background: -webkit-linear-gradient(to right, #a8c0ff,#3f2b96);
     background: linear-gradient(to right, #a8c0ff,#3f2b96);
 }
 
-.music{
+#container.music{
     background: #40E0D0;
     background: -webkit-linear-gradient(to top, #40E0D0,#FF8C00, #FF0080);
     background: linear-gradient(to top, #40E0D0,#FF8C00, #FF0080);
 }
 
-.busywork{
+#container.busywork{
     background: #333333;
     background: -webkit-linear-gradient(to left, #333333,#dd1818);
     background: linear-gradient(to left, #333333,#dd1818);
