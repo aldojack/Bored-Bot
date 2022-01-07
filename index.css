@@ -28,15 +28,21 @@
 }
 
 .recreational{
-
+    background: #4DA0B0;
+    background: -webkit-linear-gradient(to top, #4DA0B0,#D39D38);
+    background: linear-gradient(to top, #4DA0B0,#D39D38);
 }
 
 .social{
-
+    background: #F3F9A7;
+    background: -webkit-linear-gradient(to bottom, #CAC531,#F3F9A7);
+    background: linear-gradient(to bottom, #CAC531,#F3F9A7);
 }
 
 .diy{
-    
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to bottom, #3a7bd5,#3a6073);
+    background: linear-gradient(to bottom, #3a7bd5,#3a6073);
 }
 
 .charity{
@@ -50,13 +56,19 @@
 }
 
 .relaxation{
-    
+    background: #a8c0ff;
+    background: -webkit-linear-gradient(to right, #a8c0ff,#3f2b96);
+    background: linear-gradient(to right, #a8c0ff,#3f2b96);
 }
 
 .music{
-
+    background: #40E0D0;
+    background: -webkit-linear-gradient(to top, #40E0D0,#FF8C00, #FF0080);
+    background: linear-gradient(to top, #40E0D0,#FF8C00, #FF0080);
 }
 
 .busywork{
-    
+    background: #333333;
+    background: -webkit-linear-gradient(to left, #333333,#dd1818);
+    background: linear-gradient(to left, #333333,#dd1818);
 }

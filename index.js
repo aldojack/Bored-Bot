@@ -12,7 +12,6 @@ function generateActivity(){
             if(classes.length>=1){
                 document.getElementById('container').classList.remove(classes[0])
             }
-            console.log(classes[0])
             document.getElementById('container').classList.add(type)
             text.textContent = data.activity;
             console.log(data)
